@@ -1,8 +1,8 @@
-function hireMe(){
-    alert("Thanks! I will contact you soon 🚀");
+function sayHello() {
+  alert("Hello Abdirizak 👋 Welcome to your website!");
 }
 
-function sendMessage(e){
-    e.preventDefault();
-    alert("Message sent successfully ✅");
+function sendMessage(event) {
+  event.preventDefault();
+  alert("Message sent successfully 👍");
 }
